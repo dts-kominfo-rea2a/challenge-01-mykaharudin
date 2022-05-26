@@ -13,8 +13,6 @@ let setColorWendy = new Set(arrayColorWendy);
 //restoran tidak duplikat
 const arrayrestoranMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"], arrayrestoranWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
 
-let arrayrestoranWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
-
 let setRestoranMonica = new Set(arrayrestoranMonica);
 let setRestoranWendy = new Set(arrayrestoranWendy);
 
