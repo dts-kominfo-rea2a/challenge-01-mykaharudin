@@ -3,15 +3,16 @@
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
 //warna tidak duplikat
-let arrayColorMonica = ["Yellow", "Pink", "White", "Purple"], 
-arrayColorWendy = ["Blue", "Black", "Grey"];
+const arrayColorMonica = ["Yellow", "Pink", "White", "Purple"];
+const arrayColorWendy = ["Blue", "Black", "Grey"];
 
 let setColorMonica = new Set(arrayColorMonica);
 
 let setColorWendy = new Set(arrayColorWendy);
 
 //restoran tidak duplikat
-let arrayrestoranMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"], arrayrestoranWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
+const arrayrestoranMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"];
+const arrayrestoranWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
 
 let setRestoranMonica = new Set(arrayrestoranMonica);
 let setRestoranWendy = new Set(arrayrestoranWendy);
