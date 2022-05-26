@@ -27,14 +27,14 @@ const firstUser = {
     education: [{ name: "SD 01", city: "Jakarta", graduate: "2016" },
     { name: "SMP 02", city: "Jakarta", graduate: "2019" },
     { name: "SMA 03", city: "Tangerang" }],
-    favoriteRestaurant: [setRestoranMonica]
+    favoriteRestaurant: [...setRestoranMonica]
 };
 const secondUser = {
     name: "Wendy",
     gender: "Male",
     age: 23,
     email: "wendy@dingdong.com",
-    favoriteColor: [setColorWendy],
+    favoriteColor: [...setColorWendy],
     isHavePet: "Yes",
     education: [
         { name: "SD 02", city: "Jakarta", graduate: "2010" },
