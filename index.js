@@ -22,7 +22,7 @@ const firstUser = {
     gender: "Female",
     age: 17,
     email: "monica@dingdong.com",
-    favoriteColor: [setColorMonica],
+    favoriteColor: [...setColorMonica],
     isHavePet:"Yes",
     education: [{ name: "SD 01", city: "Jakarta", graduate: "2016" },
     { name: "SMP 02", city: "Jakarta", graduate: "2019" },
@@ -41,7 +41,7 @@ const secondUser = {
         { name: "SMP 03", city: "Bogor", graduate: "2013" },
         { name: "SMA 01", city: "Surabaya", graduate: "2016" },
         { name: "Universitas Maju", city: "Tangerang" }],
-    favoriteRestaurant: [setRestoranWendy]
+    favoriteRestaurant: [...setRestoranWendy]
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
